@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Neptune Cache Agent
+ * Lesik Cache Agent
  * 
  * Connects to Neptune Web IDE server and serves your local OSRS cache
  * through a WebSocket tunnel. No port forwarding needed!
@@ -22,7 +22,7 @@ const RECONNECT_DELAY = 5000;
 const cachePath = process.argv[2];
 
 if (!cachePath) {
-    console.error('Neptune Cache Agent v0.1.0');
+    console.error('Lesik Cache Agent v0.1.0');
     console.error('');
     console.error('Usage: neptune-cache-agent <cache-path>');
     console.error('');
@@ -51,7 +51,7 @@ if (!hasCacheFiles) {
 }
 
 console.log('═══════════════════════════════════════════════════════════');
-console.log('  🚀 Neptune Cache Agent v0.1.0');
+console.log('  🚀 Lesik Cache Agent v0.1.0');
 console.log('═══════════════════════════════════════════════════════════');
 console.log(`  Cache path: ${resolvedPath}`);
 console.log(`  Server: ${SERVER_URL}`);
