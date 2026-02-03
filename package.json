@@ -1,0 +1,18 @@
+{
+  "name": "neptune-cache-agent",
+  "version": "0.1.0",
+  "description": "Local cache agent for Neptune Web IDE - serves your OSRS cache to the web editor",
+  "main": "src/index.js",
+  "bin": {
+    "neptune-cache-agent": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["osrs", "runescape", "cache", "rsps", "neptune"],
+  "author": "Neptune IDE",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
